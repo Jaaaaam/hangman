@@ -1,0 +1,23 @@
+.btn {
+  width: 100%;
+  border: 3px solid black;
+  background: none;
+  font-size: 2.5rem;
+  aspect-ratio: 1 / 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  padding: .5rem;
+}
+
+.btn.active {
+  background-color: cadetblue;
+}
+
+.btn.inactive {
+  opacity: .3;
+}
+
+.btn:hover, .btn:focus {
+  background-color: lightblue
+}
